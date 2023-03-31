@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.menu__list {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+}
+.menu__item {
+  border-left: 2px solid red;
+  border-right: 2px solid red;
+  padding: 0 10px;
+}
+.logo span {
+  font-weight: 900;
+}
+.content {
+  position: relative;
+  padding: 20px;
+}
+
+.searchbar {
+  font-size: 14px;
+  width: 300px;
+  border: 2px solid black;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all 0.1s;
+  transition-delay: 0.1s;
+}
+.button {
+  height: 32px;
+  position: absolute;
+  top: 24px;
+  right: 30px;
+  transition: all 0.1s;
+  transition-delay: 0.1s;
+  border: 1px solid blue;
+  background-color: aqua;
+  padding: 10px;
+  color: #000;
+  z-index: 13;
+}
+.button:hover {
+  cursor: pointer;
+}
+.icon {
+  position: relative;
+}
+.one {
+  position: absolute;
+  top: 35px;
+  right: 200px;
+  border-radius: 50%;
+  background-color: aqua;
+  padding: 5px;
+}
+/* .searchbar:hover + .button {
+  height: 25px;
+  top: 40px;
+  right: 0;
+} */
+/* .searchbar::placeholder {
+  opacity: 0.3;
+} */
+/* @media (max-width: 1200px) {
+  .box {
+    flex-basis: 100%;
+    display: flex;
+  }
+}
+@media (max-width: 920px) {
+  .box {
+    flex-basis: 50%;
+
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .box {
+    flex-basis: 25%;
+    flex-direction: column;
+  }
+} */
